@@ -1,0 +1,119 @@
+
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+@prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
+@prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
+@prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
+@prefix time: <http://www.w3.org/2006/time#>
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix s4city: <https://saref.etsi.org/saref4city#> .
+@prefix saref: <https://saref.etsi.org/core#> .
+
+    data:resource/Truck_mounted_concrete_boom_pump a resource:ResourceType ;
+            a resource:EquipmentType ;
+            resource:resourceTypeId 1 ;
+            resource:name 'Truck_mounted_concrete_boom_pump'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 2 ;
+            resource:costPerHour 2000 .
+
+    data:resource/Concrete_mixer_truck a resource:ResourceType ;
+            a resource:EquipmentType ;
+            resource:resourceTypeId 2 ;
+            resource:name 'Concrete_mixer_truck'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 2 ;
+            resource:masUnit 4 ;
+            resource:costPerHour 1500 .
+
+    data:resource/Dump_truck a resource:ResourceType ;
+            a resource:EquipmentType ;
+            resource:resourceTypeId 3 ;
+            resource:name 'Dump_truck'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 2 ;
+            resource:costPerHour 1500 .
+
+    data:resource/Excavator a resource:ResourceType ;
+            a resource:EquipmentType ;
+            resource:resourceTypeId 4 ;
+            resource:name 'Excavator'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 2 ;
+            resource:costPerHour 1500 .
+
+    data:resource/Truck_mounted_crane a resource:ResourceType ;
+            a resource:EquipmentType ;
+            resource:resourceTypeId 5 ;
+            resource:name 'Truck_mounted_crane'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 1 ;
+            resource:costPerHour 1500 .
+
+    data:resource/Concrete_vibrator_machine a resource:ResourceType ;
+            a resource:EquipmentType ;
+            resource:resourceTypeId 6 ;
+            resource:name 'Concrete_vibrator_machine'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 4 ;
+            resource:masUnit 6 ;
+            resource:costPerHour 200 .
+
+    data:resource/Finisher a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 7 ;
+            resource:name 'Finisher'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 2 ;
+            resource:masUnit 4 ;
+            resource:costPerHour 200 .
+
+    data:resource/Worker a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 8 ;
+            resource:name 'Worker'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 5 ;
+            resource:masUnit 10 ;
+            resource:costPerHour 200 .
+
+    data:resource/Welder a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 9 ;
+            resource:name 'Welder'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 2 ;
+            resource:masUnit 4 ;
+            resource:costPerHour 200 .
+
+    data:resource/Surveyor a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 10 ;
+            resource:name 'Surveyor'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 1 ;
+            resource:costPerHour 300 .
+
+    data:resource/Site_supervisor a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 11 ;
+            resource:name 'Site_supervisor'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 1 ;
+            resource:costPerHour 300 .
+
+    data:resource/Foreman a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 12 ;
+            resource:name 'Foreman'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 1 ;
+            resource:costPerHour 200 .
+
+    data:resource/Crane_operator a resource:ResourceType ;
+            a resource:HumanRole ;
+            resource:resourceTypeId 13 ;
+            resource:name 'Crane_operator'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials 1 ;
+            resource:masUnit 1 ;
+            resource:costPerHour 200 .
+

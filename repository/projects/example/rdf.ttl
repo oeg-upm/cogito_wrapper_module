@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
+
+data:project/cogito:id:456
+    a facility:Project ;
+    facility:hasName "test1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    facility:hasDescription "test description"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    facility:projectID "cogito:id:456"^^<http://www.w3.org/2001/XMLSchema#string> .
