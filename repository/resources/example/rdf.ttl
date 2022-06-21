@@ -13,7 +13,7 @@
 @prefix s4city: <https://saref.etsi.org/saref4city#> .
 @prefix saref: <https://saref.etsi.org/core#> .
 
-    data:resource/Truck_mounted_concrete_boom_pump a resource:ResourceType ;
+    data:ResourceType_Truck_mounted_concrete_boom_pump a resource:ResourceType ;
             a resource:EquipmentType ;
             resource:resourceTypeId 1 ;
             resource:name 'Truck_mounted_concrete_boom_pump'^^<http://www.w3.org/2001/XMLSchema#string> ;

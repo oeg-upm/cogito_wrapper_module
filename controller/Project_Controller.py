@@ -2,6 +2,7 @@ from service.Project_Service import Project_Service
 from service.Validation_Service import Validation_Service
 from controller.Helio_Controller import Helio_Controller
 import requests
+from service.Error_service import Errors
 from WrapperConfiguration import WrapperConfiguration
 
 class Project_Controller:
@@ -25,7 +26,6 @@ class Project_Controller:
         self.project_service.create_model()
         self.project_service.create_file()
         
-
     def translation(self):
         helio_controller = Helio_Controller()
         helio_controller.set_helio_config()
@@ -41,13 +41,13 @@ class Project_Controller:
         if validation_service.validation_result:
             pass
         else:
-            self.send_error()
+            error = Errors(1, "Error in validation.")
+            error.send_error()
 
     def send_ttl(self):
         # send ttl to thing manager
         self.remove_project_model()
         url = self.thing_manager_endpoint + "/project/" + self.project_service.project_model.get_project_id() + "/ttl"
-        print(url)
         payload = self.ttl
         headers = {'Content-Type': 'text/turtle'}
         
@@ -55,14 +55,11 @@ class Project_Controller:
             response = requests.request("POST", url, headers=headers, data=payload)
         except:
             print("Error sending ttl to thing manager")
-            self.send_error()
+            error = Errors(1, "Error sending turtle file to thing manager.")
+            error.send_error()
             pass
 
         self.remove_project_model()
-
-    def send_error(self):
-        # Send error to thing manager encapsulando los elementos que pueden dar error entre un try y un except
-        pass
 
     def remove_project_model(self):
         self.project_service.remove_file()

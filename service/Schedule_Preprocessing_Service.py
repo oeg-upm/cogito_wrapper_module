@@ -17,9 +17,10 @@ class Schedule_Pre_Service:
                                     "Calendars", "Resources", "Assignments", "BoardColumns", "Sprints"]
         
 
-    def main(self):
+    def preprocessing(self):
+        print(self.__project_id)
         ET.register_namespace('', 'http://schemas.microsoft.com/project')
-        self.__tree = ET.parse('20210916_Planificacion_UTE_SOT.xml')
+        self.__tree = ET.parse('./repository/schedule/files/file.xml')
         self.__root = self.__tree.getroot()
         self.__remove_childs()
         self.__tasks = self.__tree.find(self.__ns + 'Tasks')
@@ -27,7 +28,6 @@ class Schedule_Pre_Service:
         self.__add_project_id()
         self.__annidate(1)
         self.__save_tree()
-        print('Preprocess Done')
 
     def __remove_childs(self):
         for child in self.__childs_to_remove:
@@ -95,6 +95,6 @@ class Schedule_Pre_Service:
         dom = xml.dom.minidom.parseString(save_tree)
         pretty_xml = dom.toprettyxml()
         pretty_xml = os.linesep.join([s for s in pretty_xml.splitlines() if s.strip()])
-        with open('new.xml', 'w') as f:
+        with open('./repository/schedule/files/file.xml', 'w') as f:
             f.write(pretty_xml)
         f.close()

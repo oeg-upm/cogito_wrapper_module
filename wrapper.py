@@ -1,8 +1,11 @@
+from cgitb import handler
 from time import sleep
 from sseclient import SSEClient
 from configparser import ConfigParser
 from WrapperConfiguration import WrapperConfiguration
-from service.Wrapper_Service import WrapperService
+from controller.Wrapper_Controller import WrapperController
+from service.Error_service import Errors
+from signal import signal, SIGINT
 import sys
 sys.stdout.flush()
 
@@ -10,16 +13,20 @@ sys.stdout.flush()
 
 def wrapper():
     messages = SSEClient(wrapper_config.sse_url)
-    wrapper = WrapperService(messages)
+    wrapper = WrapperController(messages)
     if wrapper_config.channel == "project":
         wrapper.project_wrapper()
     elif wrapper_config.channel == "file" or "file" in wrapper_config.channel:
-        wrapper.file_wrapper()
+        wrapper.file_wrapper(wrapper_config.translation_type, wrapper_config.translation_preprocess)
     else:
         # Send Error to Thing Manager with error_service
         print("Not project event")
         pass
 
+def handler(signal_received, frame):
+    # Handle any cleanup here
+    print('SIGINT or CTRL-C detected. Exiting gracefully')
+    exit(0)
 
 if __name__ == '__main__':
     wrapper_config = WrapperConfiguration()
@@ -30,5 +37,10 @@ if __name__ == '__main__':
             wrapper()
             print("Wrapper Process Ended")
         except:
+            exit(0)
+            signal(SIGINT, handler)
             print("Restarting SSE Client")
-            exit()
+            pass
+
+            
+            

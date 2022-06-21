@@ -49,7 +49,6 @@ class Helio_Controller:
         try:
             response = requests.request("GET", url, headers=headers, data=payload)
             self.ttl = response.text
-            print(self.ttl)
         except:
             print("Error retrieving file")
             self.handle_error()

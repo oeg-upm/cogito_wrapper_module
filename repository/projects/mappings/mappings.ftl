@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
 
-data:project/[=jpath.filter('$.project_id', dataset)]
+data:Project_[=jpath.filter('$.project_id', dataset)]
     a facility:Project ;
     facility:hasName "[=jpath.filter('$.project_name', dataset)]"^^<http://www.w3.org/2001/XMLSchema#string> ;
     facility:hasDescription "[=jpath.filter('$.project_description', dataset)]"^^<http://www.w3.org/2001/XMLSchema#string> ;
