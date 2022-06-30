@@ -18,7 +18,6 @@ class Schedule_Pre_Service:
         
 
     def preprocessing(self):
-        print(self.__project_id)
         ET.register_namespace('', 'http://schemas.microsoft.com/project')
         self.__tree = ET.parse('./repository/schedule/files/file.xml')
         self.__root = self.__tree.getroot()

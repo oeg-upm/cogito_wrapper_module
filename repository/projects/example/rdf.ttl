@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix facility: <https://cogito.iot.linkeddata.es/def/facility#> .
 
-data:project/cogito:id:456
+data:project/079637bb-87d5-4fef-9704-d556364d90ba
     a facility:Project ;
     facility:hasName "test1"^^<http://www.w3.org/2001/XMLSchema#string> ;
     facility:hasDescription "test description"^^<http://www.w3.org/2001/XMLSchema#string> ;
-    facility:projectID "cogito:id:456"^^<http://www.w3.org/2001/XMLSchema#string> .
+    facility:projectID "079637bb-87d5-4fef-9704-d556364d90ba"^^<http://www.w3.org/2001/XMLSchema#string> .

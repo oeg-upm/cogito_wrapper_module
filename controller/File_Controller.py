@@ -1,5 +1,6 @@
 from service.File_Service import File_Service
 from service.Validation_Service import Validation_Service
+from service.IFC_Service import Generate_IFC_Graph
 from controller.Helio_Controller import Helio_Controller
 import requests
 from service.Error_service import Errors
@@ -12,6 +13,7 @@ class File_Controller:
         self.file_path = "./repository/" + file_type + "/files"
         self.ttl_path = "./repository/" + file_type + "/ttl"
         self.file_service = None
+        self.file_type = file_type
         self.thing_manager_endpoint = None
         self.ttl = None
         self.mappings_path = None
@@ -47,8 +49,7 @@ class File_Controller:
 
     def send_ttl(self):
         # send ttl to thing manager
-        self.remove_project_model()
-        url = self.thing_manager_endpoint + "/project/" + self.project_service.project_model.get_project_id() + "/file/" + self.file_service.file_model.get_file_id() + "/ttl"
+        url = self.thing_manager_endpoint + "/project/" + self.file_service.file_model.get_project_id() + "/" + self.file_type + "/" + self.file_service.file_model.get_file_id() + "/ttl"
         payload = self.ttl
         headers = {'Content-Type': 'text/turtle'}
         
@@ -60,7 +61,12 @@ class File_Controller:
             error.send_error()
             pass
 
-        self.remove_project_model()
+        self.remove_file_model()
+
+    def ifc_file_translation(self):
+        generate_IFC_ttl = Generate_IFC_Graph(self.ttl, self.mappings_path)
+        generate_IFC_ttl.generate_graph()
+        self.ttl = generate_IFC_ttl.raw_graph
 
     def remove_file_model(self):
         self.file_service.remove_file()

@@ -2,6 +2,7 @@ from time import sleep
 from controller.Project_Controller import Project_Controller
 from controller.File_Controller import File_Controller
 from service.Schedule_Preprocessing_Service import Schedule_Pre_Service
+from service.Resource_Type_Preprocessing_Service import Resource_Type_Pre_Service
 import json
 
 class WrapperController:
@@ -43,23 +44,24 @@ class WrapperController:
             # Download file from file uri with same name for all files downloaded (the error can be handled in the case of more than one file is being processed, because it is going to be processed one by one, for each event received by the thing manager)
             file_controller.create_file_model()
             # Handle if preprocess field is True or False
-            if preprocessing:
-                if file_type == "schedule":
-                    self.json_data = json.loads(self.json_data)
-                    preprocessing_service = Schedule_Pre_Service(self.json_data["id"])
-                    preprocessing_service.preprocessing()
-                # If preprocess is True, call preprocess function
-                else:
-                    pass
-                # Update file model with preprocessed file
-                pass
-            # Translate with Helio
-            file_controller.translation()
-            print("hello6")
-            print(file_controller.ttl)
+            if file_type != "ifc":
+                if preprocessing:
+                    # If preprocess is True, call preprocess function
+                    if file_type == "schedule":
+                        self.json_data = json.loads(self.json_data)
+                        preprocessing_service = Schedule_Pre_Service(self.json_data["id"])
+                        preprocessing_service.preprocessing()
+                    elif file_type == "resource_type":
+                        preprocessing_service = Resource_Type_Pre_Service()
+                    else:
+                        pass
+                    # Update file model with preprocessed file
+                # Translate with Helio
+                file_controller.translation()
+            else:
+                file_controller.ifc_file_translation()
             # Remove file downloaded
             # Send via post to thing manager module ttl file with relative information
             file_controller.send_ttl()
-            print("hello7")
             # sleep(5)
             pass

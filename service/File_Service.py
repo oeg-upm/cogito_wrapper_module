@@ -14,10 +14,10 @@ class File_Service:
         self.file_model = File()
 
     def create_model(self):
-        print(self.json_data["file_url"])
         self.file_model.set_project_id(self.json_data["id"])
         self.file_model.set_file_url(self.json_data["file_url"])
-        self.file_model.set_file_id(hashlib.sha256(self.json_data["file_url"].encode('utf-8')))
+        hash_value = hashlib.sha256(self.json_data["file_url"].encode('utf-8'))
+        self.file_model.set_file_id(hash_value.hexdigest())
     
     def download_file(self):
         file_extension = self.__retrieve_file_extension()
