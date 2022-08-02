@@ -8,7 +8,7 @@
 @prefix process: <https://cogito.iot.linkeddata.es/def/process#> .
 @prefix resource: <https://cogito.iot.linkeddata.es/def/resource#> .
 @prefix const: <https://cogito.iot.linkeddata.es/def/construction#> .
-@prefix time: <http://www.w3.org/2006/time#>
+@prefix time: <http://www.w3.org/2006/time#> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix s4city: <https://saref.etsi.org/saref4city#> .
 @prefix saref: <https://saref.etsi.org/core#> .
@@ -16,7 +16,7 @@
 <#list data?split("\n") as row>
     <#assign cols=row?split(",")>
     <#if cols?size == 6 && row?index gt 0>
-    data:resource/[=cols[1]] a resource:ResourceType ;
+    data:ResourceType_[=cols[1]] a resource:ResourceType ;
         <#if cols[2] == "Equipment">
             a resource:EquipmentType ;
             resource:resourceTypeId [=cols[0]] ;

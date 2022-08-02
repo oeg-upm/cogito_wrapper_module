@@ -31,16 +31,21 @@ def handler(signal_received, frame):
 if __name__ == '__main__':
     wrapper_config = WrapperConfiguration()
     wrapper_config.get_configuration()
+    count = 0
     while True:
         try:
-            print("Wrapper Process Started")
+            count += 1
+            print("Wrapper Process Started" + str(count))
             wrapper()
             print("Wrapper Process Ended")
         except:
-            exit(0)
-            signal(SIGINT, handler)
             print("Restarting SSE Client")
+            sleep(1)
             pass
+        #     exit(0)
+        #     signal(SIGINT, handler)
+        #     print("Restarting SSE Client")
+        #     pass
 
             
             

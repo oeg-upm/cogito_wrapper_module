@@ -47,10 +47,10 @@ class File_Controller:
             error = Errors(1, "Error in validation.")
             error.send_error()
 
-    def send_ttl(self):
+    def send_ttl(self, file_url):
         # send ttl to thing manager
         url = self.thing_manager_endpoint + "/project/" + self.file_service.file_model.get_project_id() + "/" + self.file_type + "/" + self.file_service.file_model.get_file_id() + "/ttl"
-        payload = self.ttl
+        payload = self.ttl + "\n" + self.json_data["file_url"]
         headers = {'Content-Type': 'text/turtle'}
         
         try:
