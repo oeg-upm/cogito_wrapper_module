@@ -21,13 +21,14 @@ class File_Service:
     
     def download_file(self):
         file_extension = self.__retrieve_file_extension()
-        # if file exists remove it
         if os.path.exists(self.path + "/file." + file_extension):
             os.remove(self.path + "/file." + file_extension)
         # create file
         local_filename = self.path + "/file." + file_extension
         try:
+            print("Downloading file", self.json_data["file_url"])
             request.urlretrieve(self.json_data["file_url"], local_filename)
+            print("File Downloaded")
         except Exception as e:
             print(e.code)
             error = Errors(e.code, "Error during file download in wrapper execution.")

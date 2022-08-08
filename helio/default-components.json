@@ -21,9 +21,9 @@
     "clazz": "helio.builder.jld11map.JLD11Builder",
     "type": "BUILDER"
   },{
-    "source": "/Users/salva/Dropbox/cogito/platform_code/cogito_wrapper_module/helio/helio-handler-xml-0.0.3.jar",
+    "source": "https://github.com/helio-ecosystem/helio-handler-xml/releases/download/v0.0.3/helio-handler-xml-0.0.3.jar",
     "clazz": "handlers.XmlHandler",
     "type": "HANDLER"
-  }
+}
 
 ]

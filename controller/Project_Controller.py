@@ -53,6 +53,7 @@ class Project_Controller:
         
         try:
             response = requests.request("POST", url, headers=headers, data=payload)
+            print("Sended request to," + url)
         except:
             print("Error sending ttl to thing manager")
             error = Errors(1, "Error sending turtle file to thing manager.")

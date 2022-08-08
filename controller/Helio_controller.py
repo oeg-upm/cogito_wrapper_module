@@ -25,7 +25,9 @@ class Helio_Controller:
             'Content-Type': 'text/plain'
         }
         try:
+            print("Creating Helio Task")
             response = requests.request("POST", url, headers=headers, data=payload)
+            print("Helio Task Created")
         except:
             print("Error creating task")
             self.handle_error()
@@ -47,7 +49,10 @@ class Helio_Controller:
         headers = {}
 
         try:
+            print("Retrieving Helio Graph File")
             response = requests.request("GET", url, headers=headers, data=payload)
+            # print("Helio Graph File Retrieved \n", response.text)
+            print("Helio Graph File Retrieved")
             self.ttl = response.text
         except:
             print("Error retrieving file")

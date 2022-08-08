@@ -20,7 +20,7 @@ def wrapper():
         wrapper.file_wrapper(wrapper_config.translation_type, wrapper_config.translation_preprocess)
     else:
         # Send Error to Thing Manager with error_service
-        print("Not project event")
+        print("Not correct event")
         pass
 
 def handler(signal_received, frame):

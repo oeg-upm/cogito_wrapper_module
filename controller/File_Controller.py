@@ -5,6 +5,7 @@ from controller.Helio_Controller import Helio_Controller
 import requests
 from service.Error_service import Errors
 from WrapperConfiguration import WrapperConfiguration
+import json
 
 class File_Controller:
 
@@ -47,14 +48,16 @@ class File_Controller:
             error = Errors(1, "Error in validation.")
             error.send_error()
 
-    def send_ttl(self, file_url):
+    def send_ttl(self):
         # send ttl to thing manager
         url = self.thing_manager_endpoint + "/project/" + self.file_service.file_model.get_project_id() + "/" + self.file_type + "/" + self.file_service.file_model.get_file_id() + "/ttl"
+        self.json_data = json.loads(self.json_data)
         payload = self.ttl + "\n" + self.json_data["file_url"]
         headers = {'Content-Type': 'text/turtle'}
         
         try:
             response = requests.request("POST", url, headers=headers, data=payload)
+            print("Sended request to," + url)
         except:
             print("Error sending ttl to thing manager")
             error = Errors(1, "Error sending turtle file to thing manager.")

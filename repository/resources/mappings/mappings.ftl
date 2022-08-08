@@ -1,4 +1,4 @@
-<#assign data=providers(type="FileProvider", file="/Users/salva/Dropbox/cogito/cogito_wrapper_module/repository/resources/files/resources.csv")>
+<#assign data=providers(type="FileProvider", file="/usr/src/app/resources/files/file.csv")>
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

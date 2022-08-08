@@ -1,5 +1,5 @@
 <#assign xpath=handlers('XmlHandler')>
-<#assign dataset=providers(type='FileProvider', file='/Users/salva/Dropbox/cogito/platform_code/cogito_wrapper_module/repository/schedule/files/preprocessed.xml')>
+<#assign dataset=providers(type='FileProvider', file='/usr/src/app/repository/schedule/files/file.xml')>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
