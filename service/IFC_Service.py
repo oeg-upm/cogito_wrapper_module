@@ -1,5 +1,7 @@
 import requests
+requests.packages.urllib3.disable_warnings()
 import os
+
 
 class Generate_IFC_Graph:
     def __init__(self): # file = temp.name
@@ -12,13 +14,14 @@ class Generate_IFC_Graph:
 
 
     def generate_graph(self):
+        
         s = requests.Session()
         s.get(self.url, verify=False)
 
         file_path = "./repository/ifc/files/file.ifc"
+
         try:
             self.files = [('file',(file_path,open(file_path, 'rb'),'application/octet-stream'))]
-            self.generate_graph()
         finally:
             os.remove(file_path)
 
@@ -28,7 +31,7 @@ class Generate_IFC_Graph:
         headers_get = {
             'Cookie': 'JSESSIONID=' + s.cookies.get_dict()['JSESSIONID']
         }
-
+        
         response_post = requests.post(self.url_post, headers=headers_post, data=self.payload, files=self.files, verify=False)
         response_get = requests.get(self.url_get, headers=headers_get, data=self.payload, verify=False)
 

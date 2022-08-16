@@ -67,7 +67,7 @@ class File_Controller:
         self.remove_file_model()
 
     def ifc_file_translation(self):
-        generate_IFC_ttl = Generate_IFC_Graph(self.ttl, self.mappings_path)
+        generate_IFC_ttl = Generate_IFC_Graph()
         generate_IFC_ttl.generate_graph()
         self.ttl = generate_IFC_ttl.raw_graph
 
