@@ -1,6 +1,6 @@
 from service.File_Service import File_Service
 from service.IFC_Service import Generate_IFC_Graph
-from controller.Helio_Controller import Helio_Controller
+from Helio_Controller import Helio_Controller
 from controller.Coppola_Controller import Coppola_Controller
 import requests
 from service.Error_service import Errors

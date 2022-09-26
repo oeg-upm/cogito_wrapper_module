@@ -1,5 +1,5 @@
 from service.Project_Service import Project_Service
-from controller.Helio_Controller import Helio_Controller
+from Helio_Controller import Helio_Controller
 from controller.Coppola_Controller import Coppola_Controller
 import requests
 from service.Error_service import Errors
