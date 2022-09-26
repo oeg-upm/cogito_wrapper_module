@@ -2,6 +2,7 @@ from service.File_Service import File_Service
 from service.Validation_Service import Validation_Service
 from service.IFC_Service import Generate_IFC_Graph
 from controller.Helio_Controller import Helio_Controller
+from controller.Coppola_Controller import Coppola_Controller
 import requests
 from service.Error_service import Errors
 from WrapperConfiguration import WrapperConfiguration
@@ -40,9 +41,10 @@ class File_Controller:
         self.ttl = helio_controller.ttl
 
     def validation(self):
-        validation_service = Validation_Service(self.ttl, self.mappings_path)
-        validation_service.validation()
-        if validation_service.validation_result:
+        validation_controller = Coppola_Controller(self.ttl)
+        validation_controller.set_coppola_config()
+        validation_controller.validate()
+        if validation_controller.response_list != None:
             pass
         else:
             error = Errors(1, "Error in validation.")

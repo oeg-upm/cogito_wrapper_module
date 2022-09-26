@@ -12,6 +12,7 @@ class WrapperConfiguration:
         self.__class__.thing_manager = None
         self.__class__.sse_url = None
         self.__class__.channel = None
+        self.__class__.coppola_endpoint = None
 
     def get_configuration(self):
         config = ConfigParser()
@@ -53,6 +54,13 @@ class WrapperConfiguration:
                 if not config.has_option('thing_manager', 'channel'):
                     print("Missing 'channel' option in 'thing_manager' section in 'config.ini'.")
                     exit()
+            if not config.has_section('coppola'):
+                print("Missing 'coppola' mandatory section in 'config.ini'.")
+                exit()
+            else:
+                if not config.has_option('coppola', 'host'):
+                    print("Missing 'host' option in 'coppola' section in 'config.ini'.")
+                    exit()
 
             self.helio_endpoint = config.get('helio', 'host')
             self.helio_mappings_path = config.get('helio', 'mappings_path')
@@ -63,3 +71,4 @@ class WrapperConfiguration:
             self.thing_manager = config.get('thing_manager', 'host')
             self.channel = config.get('thing_manager', 'channel')
             self.sse_url = config.get('thing_manager', 'sse') + "?channel=" + config.get('thing_manager', 'channel')
+            self.coppola_endpoint = config.get('coppola', 'host')

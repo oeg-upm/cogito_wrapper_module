@@ -1,5 +1,5 @@
 <#assign jpath=handlers("JsonHandler")>
-<#assign dataset=providers(type="FileProvider", file="/usr/src/app/repository/projects/files/project.json")>
+<#assign dataset=providers("FileProvider", { "file" : "/usr/src/app/repository/projects/files/project.json" })>
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

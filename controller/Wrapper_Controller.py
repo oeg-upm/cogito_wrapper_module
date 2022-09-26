@@ -26,6 +26,10 @@ class WrapperController:
             project_controller.create_project_model()
             # Translate with Helio
             project_controller.translation()
+            # Make Validation
+            print("Starting Validation")
+            project_controller.validation()
+            print("End Validation")
             # Send via post to thing manager module ttl file with relative information
             project_controller.send_ttl()
             # sleep(5)
@@ -61,6 +65,8 @@ class WrapperController:
             else:
                 file_controller.ifc_file_translation()
             # Remove file downloaded
+            # Make Validation
+            file_controller.validation()
             # Send via post to thing manager module ttl file with relative information
             file_controller.send_ttl()
             # sleep(5)
