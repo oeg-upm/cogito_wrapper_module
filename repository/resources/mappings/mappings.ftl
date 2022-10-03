@@ -12,11 +12,45 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix s4city: <https://saref.etsi.org/saref4city#> .
 @prefix saref: <https://saref.etsi.org/core#> .
+@prefix resource_type: <http://data.cogito.iot.linkeddata.es/resources/resource_type/> .
+
 
 <#list data?split("\n") as row>
     <#assign cols=row?split(",")>
     <#if cols?size == 6 && row?index gt 0>
     data:ResourceType_[=cols[1]] a resource:ResourceType ;
+        <#if cols[2] == "Equipment">
+            a resource:EquipmentType ;
+            resource:resourceTypeId [=cols[0]] ;
+            resource:name '[=cols[1]]'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials [=cols[3]] ;
+            resource:maxUnit [=cols[4]] ;
+            resource:costPerHour [=cols[5]] .
+
+        <#elseif cols[2] == "People">
+            a resource:HumanRole ;
+            resource:resourceTypeId [=cols[0]] ;
+            resource:name '[=cols[1]]'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials [=cols[3]] ;
+            resource:maxUnit [=cols[4]] ;
+            resource:costPerHour [=cols[5]] .
+
+        <#else>
+            a resource:TrackingTagGroup ;
+            resource:resourceTypeId [=cols[0]] ;
+            resource:name '[=cols[1]]'^^<http://www.w3.org/2001/XMLSchema#string> ;
+            resource:initials [=cols[3]] ;
+            resource:maxUnit [=cols[4]] ;
+            resource:costPerHour [=cols[5]] .
+            
+        </#if>
+    </#if>
+</#list>
+
+<#list data?split("\n") as row>
+    <#assign cols=row?split(",")>
+    <#if cols?size == 6 && row?index gt 0>
+    resource_type:[=cols[1]] a resource:ResourceType ;
         <#if cols[2] == "Equipment">
             a resource:EquipmentType ;
             resource:resourceTypeId [=cols[0]] ;
