@@ -20,4 +20,5 @@ project:[=jpath.filter('$.project_id', dataset)]
     facility:hasDescription "[=jpath.filter('$.project_description', dataset)]"^^<http://www.w3.org/2001/XMLSchema#string> ;
     facility:projectID "[=jpath.filter('$.project_id', dataset)]"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-data:Project_[=jpath.filter('$.project_id', dataset)] owl:sameAs  project:[=jpath.filter('$.project_id', dataset)]
+data:Project_[=jpath.filter('$.project_id', dataset)] owl:sameAs  project:[=jpath.filter('$.project_id', dataset)] .
+project:[=jpath.filter('$.project_id', dataset)] owl:sameAs data:Project_[=jpath.filter('$.project_id', dataset)] .

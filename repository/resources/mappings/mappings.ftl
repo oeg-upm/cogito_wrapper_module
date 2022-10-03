@@ -18,6 +18,9 @@
 <#list data?split("\n") as row>
     <#assign cols=row?split(",")>
     <#if cols?size == 6 && row?index gt 0>
+    data:ResourceType_[=cols[1]] owl:sameAs resource_type:[=cols[1]] .
+    resource_type:[=cols[1]] owl:sameAs data:ResourceType_[=cols[1]] .
+
     data:ResourceType_[=cols[1]] a resource:ResourceType ;
         <#if cols[2] == "Equipment">
             a resource:EquipmentType ;
