@@ -18,6 +18,7 @@
 @prefix process_data: <http://data.cogito.iot.linkeddata.es/resources/process/> .
 @prefix project: <http://data.cogito.iot.linkeddata.es/resources/project/> .
 @prefix task: <http://data.cogito.iot.linkeddata.es/resources/task/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 data:Project_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]
     a facility:Project ;

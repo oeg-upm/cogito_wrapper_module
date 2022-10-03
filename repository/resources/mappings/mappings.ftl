@@ -13,6 +13,7 @@
 @prefix s4city: <https://saref.etsi.org/saref4city#> .
 @prefix saref: <https://saref.etsi.org/core#> .
 @prefix resource_type: <http://data.cogito.iot.linkeddata.es/resources/resource_type/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 
 <#list data?split("\n") as row>
