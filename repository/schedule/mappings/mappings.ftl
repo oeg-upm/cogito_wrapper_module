@@ -1,5 +1,5 @@
 <#assign xpath=handlers('XmlHandler')>
-<#assign dataset=providers('FileProvider', { 'file' : '/usr/src/app/repository/schedule/files/file.xml' })>
+<#assign dataset=providers('FileProvider', { 'file' : '/usr/src/app/schedule/files/file.xml' })>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
@@ -29,6 +29,12 @@ project:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)] owl:sameAs
 
 data:Process_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filter('./Project/GUID/text()', dataset)]
     a process:Process ;
+    process:hasTask
+    <#list xpath.filter('./Project/Tasks/Task[*]',dataset)>
+    <#items as task>
+     data:Task_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filter('./Project/GUID/text()', dataset)]_[=xpath.filter('./Task/UID/text()', task)] <#if task?is_last> ; <#else> , </#if>
+    </#items>
+    </#list>
     process:processID '[=xpath.filter('./Project/GUID/text()', dataset)]' ;
     process:hasName '[=xpath.filter('./Project/Name/text()', dataset)]' ;
     process:hasCreationDate '[=xpath.filter('./Project/CreationDate/text()', dataset)]'^^<http://www.w3.org/2001/XMLSchema#dateTime>.
@@ -45,6 +51,7 @@ task:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filte
 
 data:Task_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filter('./Project/GUID/text()', dataset)]_[=xpath.filter('./Task/UID/text()', task)]
     a process:Task ;
+    facility:isRelatedToProject data:Project_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)] ;
     process:taskId '[=xpath.filter('./Task/GUID/text()', task)]' ;
     process:taskUid '[=xpath.filter('./Task/UID/text()', task)]' ;
     process:hasName '[=xpath.filter('./Task/Name/text()', task)]'^^<http://www.w3.org/2001/XMLSchema#string> ;
@@ -58,14 +65,14 @@ data:Task_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.
         <#assign childs = xpath.filter("./Task/Childs/WBS/text()",task)>
         <#if childs?is_sequence>
             <#list childs as child>
-                '[=child]'^^<http://www.w3.org/2001/XMLSchema#string> <#if child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#elseif child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim != ''> ; <#else> , </#if>
+                data:Task_[=child] <#if child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#elseif child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim != ''> ; <#else> , </#if>
             </#list>
         <#else>
-             '[=childs]'^^<http://www.w3.org/2001/XMLSchema#string> <#if xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#else> ; </#if>
+             data:Task_[=childs] <#if xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#else> ; </#if>
         </#if>
     </#if>
     <#if xpath.filter('./Task/Parent_WBS',task)?trim != ''>
-        process:isSubTaskOf '[=xpath.filter('./Task/Parent_WBS/text()', task)]'^^<http://www.w3.org/2001/XMLSchema#string> .
+        process:isSubTaskOf data:Task_[=xpath.filter('./Task/Parent_WBS/text()', task)] .
     </#if>
 </#items>
 </#list>
@@ -75,8 +82,15 @@ data:Task_[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.
 project:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]
     a facility:Project ;
     facility:isRelatedToProcess data:[=xpath.filter('./Project/GUID/text()', dataset)] .
+
 process_data:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filter('./Project/GUID/text()', dataset)]
     a process:Process ;
+    process:hasTask
+    <#list xpath.filter('./Project/Tasks/Task[*]',dataset)>
+    <#items as task>
+     task:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filter('./Project/GUID/text()', dataset)]_[=xpath.filter('./Task/UID/text()', task)] <#if task?is_last> ; <#else> , </#if>
+    </#items>
+    </#list>
     process:processID '[=xpath.filter('./Project/GUID/text()', dataset)]' ;
     process:hasName '[=xpath.filter('./Project/Name/text()', dataset)]' ;
     process:hasCreationDate '[=xpath.filter('./Project/CreationDate/text()', dataset)]'^^<http://www.w3.org/2001/XMLSchema#dateTime> .
@@ -84,6 +98,7 @@ process_data:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpa
 <#items as task>
 task:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filter('./Project/GUID/text()', dataset)]_[=xpath.filter('./Task/UID/text()', task)]
     a process:Task ;
+    facility:isRelatedToProject project:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)] ;
     process:taskId '[=xpath.filter('./Task/GUID/text()', task)]' ;
     process:taskUid '[=xpath.filter('./Task/UID/text()', task)]' ;
     process:hasName '[=xpath.filter('./Task/Name/text()', task)]'^^<http://www.w3.org/2001/XMLSchema#string> ;
@@ -97,14 +112,14 @@ task:[=xpath.filter('./Project/Final_Project_ID/text()', dataset)]_[=xpath.filte
         <#assign childs = xpath.filter("./Task/Childs/WBS/text()",task)>
         <#if childs?is_sequence>
             <#list childs as child>
-                '[=child]'^^<http://www.w3.org/2001/XMLSchema#string> <#if child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#elseif child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim != ''> ; <#else> , </#if>
+                task:[=child] <#if child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#elseif child?is_last && xpath.filter('./Task/Parent_WBS',task)?trim != ''> ; <#else> , </#if>
             </#list>
         <#else>
-             '[=childs]'^^<http://www.w3.org/2001/XMLSchema#string> <#if xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#else> ; </#if>
+             task:[=childs] <#if xpath.filter('./Task/Parent_WBS',task)?trim == ''> . <#else> ; </#if>
         </#if>
     </#if>
     <#if xpath.filter('./Task/Parent_WBS',task)?trim != ''>
-        process:isSubTaskOf '[=xpath.filter('./Task/Parent_WBS/text()', task)]'^^<http://www.w3.org/2001/XMLSchema#string> .
+        process:isSubTaskOf task:[=xpath.filter('./Task/Parent_WBS/text()', task)] .
     </#if>
 </#items>
 </#list>

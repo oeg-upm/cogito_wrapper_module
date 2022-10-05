@@ -7,6 +7,7 @@ class Schedule_Pre_Service:
     def __init__(self, project_id):
         self.__ns = '{http://schemas.microsoft.com/project}'
         self.__project_id = project_id # Add as an additional functionality
+        self.__process_id = None
         self.__tree = None
         self.__root = None
         self.__tasks = None
@@ -21,12 +22,16 @@ class Schedule_Pre_Service:
         ET.register_namespace('', 'http://schemas.microsoft.com/project')
         self.__tree = ET.parse('./repository/schedule/files/file.xml')
         self.__root = self.__tree.getroot()
+        self.__get_process_id()
         self.__remove_childs()
         self.__tasks = self.__tree.find(self.__ns + 'Tasks')
         self.__task_list = self.__tasks.findall(self.__ns + 'Task')
         self.__add_project_id()
         self.__annidate(1)
         self.__save_tree()
+    
+    def __get_process_id(self):
+        self.__process_id = self.__root.find(self.__ns + 'GUID').text
 
     def __remove_childs(self):
         for child in self.__childs_to_remove:
@@ -39,8 +44,10 @@ class Schedule_Pre_Service:
         return result and len(l1) == len(l2)
     
     def __generate_tree_values(self, father, child):
+        print(father)
+        print(child)
         for task in self.__task_list:
-            if task.find(self.__ns + 'WBS').text == father:
+            if task.find(self.__ns + 'WBS').text == father[1]:
                 childs_node = None
                 if not task.find(self.__ns + 'Childs'):
                     childs_node = ET.SubElement(task, self.__ns + "Childs")
@@ -48,17 +55,17 @@ class Schedule_Pre_Service:
                     childs_node = task.find(self.__ns + 'Childs')
                 child_element = ET.SubElement(childs_node, self.__ns + "WBS")
                 if not child_element.text == child:
-                    child_element.text = child
-            if task.find(self.__ns + 'WBS').text == child:
+                    child_element.text = child[0]
+            if task.find(self.__ns + 'WBS').text == child[1]:
                 if not task.find(self.__ns + 'Parent_WBS'):
                     parent_node = ET.SubElement(task, self.__ns + "Parent_WBS")
-                    parent_node.text = father
+                    parent_node.text = father[0]
 
     def __iterate_lists(self, father_list, child_list):
         for father in father_list:
             for child in child_list: # Here goes the function
-                father_split = father.split('.')
-                child_split = child.split('.')[:-1]
+                father_split = father[1].split('.')
+                child_split = child[1].split('.')[:-1]
                 flag = self.__compare(child_split, father_split)
                 if flag and len(child_split) == len(father_split):
                     # Save father in list of fathers that have children
@@ -70,10 +77,13 @@ class Schedule_Pre_Service:
 
         for task in self.__task_list:
             wbs = task.find(self.__ns + 'WBS').text
+            task_UID = task.find(self.__ns + 'UID').text
+            task_identifier =self.__project_id + "_" + self.__process_id + "_" + task_UID
+            task_element = [task_identifier,wbs]
             if len(wbs.split('.')) == counter:
-                father_list.append(wbs)
+                father_list.append(task_element)
             elif len(wbs.split('.')) > counter:
-                child_list.append(wbs)
+                child_list.append(task_element)
         
         if child_list == []:
             return
