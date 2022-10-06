@@ -44,8 +44,6 @@ class Schedule_Pre_Service:
         return result and len(l1) == len(l2)
     
     def __generate_tree_values(self, father, child):
-        print(father)
-        print(child)
         for task in self.__task_list:
             if task.find(self.__ns + 'WBS').text == father[1]:
                 childs_node = None

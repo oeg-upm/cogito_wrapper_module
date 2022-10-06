@@ -1,4 +1,4 @@
-<#assign data=providers("FileProvider", { "file" : "/usr/src/app/resources/files/file.csv" })>
+<#assign data=providers("FileProvider", { "file" : "/usr/src/app/repository/resources/files/file.csv" })>
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

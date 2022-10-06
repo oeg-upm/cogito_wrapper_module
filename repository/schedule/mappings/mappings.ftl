@@ -1,5 +1,5 @@
 <#assign xpath=handlers('XmlHandler')>
-<#assign dataset=providers('FileProvider', { 'file' : '/usr/src/app/schedule/files/file.xml' })>
+<#assign dataset=providers('FileProvider', { 'file' : '/usr/src/app/repository/schedule/files/file.xml' })>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix data: <http://data.cogito.iot.linkeddata.es/resources/> .
