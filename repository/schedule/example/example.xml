@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<RINFData>
+    <MemberStateCode Code="FR" Version="1"/>
+	 <SectionOfLine ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+        <SOLIMCode Value="0087"/>
+        <SOLLineIdentification Value="420000-1"/>
+        <SOLOPStart Value="FR0000015527"/>
+        <SOLOPEnd Value="FR0000016308"/>
+        <SOLLength Value="0.274"/>
+        <SOLNature Value="10"/>
+        <SOLTrack ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+            <SOLTrackIdentification Value="Voie 1 de  Paris-Montparnasse à  Brest"/>
+            <SOLTrackDirection Value="10"/>
+        </SOLTrack>
+        <SOLTrack ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+            <SOLTrackIdentification Value="Voie 2 de  Paris-Montparnasse à  Brest"/>
+            <SOLTrackDirection Value="20"/>
+        </SOLTrack>
+    </SectionOfLine>
+    <SectionOfLine ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+        <SOLIMCode Value="0087"/>
+        <SOLLineIdentification Value="420000-1"/>
+        <SOLOPStart Value="FR0000009458"/>
+        <SOLOPEnd Value="FR0000015527"/>
+        <SOLLength Value="0.247"/>
+        <SOLNature Value="10"/>
+        <SOLTrack ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+            <SOLTrackIdentification Value="Voie 1 de  Paris-Montparnasse à  Brest"/>
+            <SOLTrackDirection Value="10"/>
+        </SOLTrack>
+        <SOLTrack ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+            <SOLTrackIdentification Value="Voie 2 de  Paris-Montparnasse à  Brest"/>
+            <SOLTrackDirection Value="20"/>
+        </SOLTrack>
+    </SectionOfLine>
+     <OperationalPoint ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+        <OPName Value="Accès à Faisceau HALLE"/>
+        <UniqueOPID Value="FR0000015527"/>
+        <OPTafTapCode IsApplicable="N"/>
+        <OPType Value="80"/>
+        <OPTypeGaugeChangeover IsApplicable="N"/>
+        <OPGeographicLocation Latitude="48.3885759" Longitude="-4.4763847"/>
+        <OPRailwayLocation NationalIdentNum="420000-1" Kilometer="622.134"/>
+    </OperationalPoint>
+        <OperationalPoint ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+        <OPName Value="Faisceau HALLE"/>
+        <UniqueOPID Value="FR0000009458"/>
+        <OPTafTapCode IsApplicable="N"/>
+        <OPType Value="50"/>
+        <OPTypeGaugeChangeover IsApplicable="N"/>
+        <OPGeographicLocation Latitude="48.3891393" Longitude="-4.4731307"/>
+        <OPRailwayLocation NationalIdentNum="420000-1" Kilometer="621.887"/>
+    </OperationalPoint>
+     <SectionOfLine ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+        <SOLIMCode Value="0087"/>
+        <SOLLineIdentification Value="420000-1"/>
+        <SOLOPStart Value="FR0000008462"/>
+        <SOLOPEnd Value="FR0000009458"/>
+        <SOLLength Value="0.057"/>
+        <SOLNature Value="10"/>//children[./parent]/child/@id
+        <SOLTrack ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+            <SOLTrackIdentification Value="Voie 1 de  Paris-Montparnasse à  Brest"/>
+            <SOLTrackDirection Value="10"/>
+        </SOLTrack>
+        <SOLTrack ValidityDateEnd="2382-01-01" ValidityDateStart="1800-01-01">
+            <SOLTrackIdentification Value="Voie 2 de  Paris-Montparnasse à  Brest"/>
+            <SOLTrackDirection Value="20"/>
+        </SOLTrack>
+    </SectionOfLine>
+</RINFData>
