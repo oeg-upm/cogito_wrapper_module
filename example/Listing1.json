@@ -1,0 +1,17 @@
+{
+    "@context": "https://www.w3.org/2019/wot/td/v1",
+    "title": "Channel Thing Description",
+    "id": "123456789",
+    "description": "Channel Thing Description to retrieve channel for server sent events",
+    "properties": {
+        "Channels": {
+            "forms": [
+                { "href": "https://data.cogito.linkeddata.es/tm/stream?channel=file.workers", "type": "workers" },
+                { "href": "https://data.cogito.linkeddata.es/tm/stream?channel=file.schedule", "type": "schedule" },
+                { "href": "https://data.cogito.linkeddata.es/tm/stream?channel=file.res_types", "type": "resource_types" }
+            ]
+        }
+    },
+    "security": "nosec_sc",
+    "securityDefinitions": {  "nosec_sc": {  "scheme": "nosec" } }
+}

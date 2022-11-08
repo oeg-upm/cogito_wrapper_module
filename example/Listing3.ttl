@@ -1,0 +1,1212 @@
+
+<http://data.cogito.iot.linkeddata.es/resources/Process_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28>
+  a <https://cogito.iot.linkeddata.es/def/process#Process>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/process/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28>;
+  <https://cogito.iot.linkeddata.es/def/process#hasTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8> .
+
+<http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>
+  a <https://cogito.iot.linkeddata.es/def/facility#Project>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba> .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AD74C853-6199-4FE2-994B-9C5142AD8021";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "0" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "64518854-E3AA-4FF7-B8BC-33DB2326571C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "1" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "2AEF0F45-3DAC-42E0-8B3B-6C9A64808289";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "10" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9991AE72-90B8-4B27-A192-BD48FA426A44";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "104" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "0B6900AE-DE66-420C-ABD2-FEFA862FC227";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "105" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "C3728CA5-B088-42FB-8860-CEB5BD9329B2";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "106" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "CE767D56-8854-481A-A558-3D97C8906BE7";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "107" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "B6D91E09-2271-4C90-BF0A-5245C1F0E486";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "108" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "8B2EC23F-4C4A-4E35-9855-A4E51D940C08";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "109" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "302EA137-4122-45ED-A5BB-B254C7DF3153";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "110" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "10363876-EDE4-460D-B2CC-2C51CAE1E159";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "111" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AC8CC3E1-078E-4C51-BC45-16EB491F307F";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "112" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "03E91AD5-CE86-42D1-916A-9B1F5C3FB735";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "113" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "ADCF6CDB-B73C-4FEF-A828-947226903359";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "114" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "26A28CF8-7DE9-4E2E-AC8B-415672A997BF";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "115" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "A79ECD8B-1175-48C4-9C35-2EEF3E7470C0";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "116" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "480ACC2C-BD92-4C0C-B230-901AA90FDFCF";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "117" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "10762CA1-18B5-45CF-870B-1D7D07B4FE5A";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "118" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "95AD44A2-E64E-45E7-A6A3-0ED08EAB90C8";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "119" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "7B177D22-3E2D-43D1-8C72-AECBB16B1BB7";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "13" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "6FD03B61-F8D8-49B6-9D75-CF508FB33862";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "14" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "930E6016-055C-445C-81EB-D976A9173B5C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "15" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "2C44CAF0-16F4-410C-B706-393A91FCB37C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "16" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "4B0DDFAA-4E9E-4D98-90F9-23FF8BEC7901";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "17" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "049F7A6B-3B39-46E9-8B51-5DD5173CDD63";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "18" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9A1B7091-2F36-4D2D-A334-769B82811DDA";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "2" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "5BDC7227-D17F-4F1D-B3CB-3F036777D2D0";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "206" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AFF17DAF-93DB-4BCA-8E63-54CE59B47CDC";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "21" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9D5F5E2F-5FBC-496A-88C4-17533696CD43";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "22" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "CF6AC4D9-1D0E-4C59-AD75-B6BB862A82F7";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "3" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "F1AD89CD-6EE0-48F2-9945-F2C107F8504C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "4" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "624D2AD5-1AFF-4113-A1A8-821AC8052FB2";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "5" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "1AD6F0EB-0CC6-429E-BD3B-39093FCE1805";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "53" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "F2DD1089-605E-4F9E-9069-EC330E112F1A";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "54" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "40A8568C-0C67-4F63-A735-658CD6C7FA95";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "55" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AA76F034-3C44-4E76-B230-BEAEC3D19424";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "56" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "22AB8911-105F-41E3-A61B-DF13BFB9EEED";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "57" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "4DAD3CF8-C28D-4D7D-B6FF-CEBFAD0C01A9";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "59" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "D90EB083-CAB7-4953-9F1B-6EEB7D2CBB72";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "6" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "8B9D7131-F54A-490D-9855-54AFBF323B8B";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "60" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "16F38803-BA42-41B5-BF4F-98726D5224EF";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "61" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "A8BF0BB2-1A1F-4DA6-8F0C-5136C5EE5982";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "63" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "DD73C77D-1606-4377-AA74-6039D25E40F1";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "64" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "E4ADD63C-5C72-4008-B75E-915A8B5EF22D";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "65" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "DB10A3F7-B46B-4C15-9254-84F10F6D3D97";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "67" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "703F1C6F-C988-4ACC-8387-6E485E3A4009";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "68" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "FDC56A31-6BE9-4FA3-8D9D-883390DFA35F";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "7" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>,
+    <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9CD9C2F1-95D9-49A7-B1BB-ACADFBE6A7E6";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "72" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "043DD0CE-E309-491D-8DF6-6796BC4E5957";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "74" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "6079F6A4-A131-4B6E-8454-6DCF07764872";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "76" .
+
+<http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "6A5B26EF-D364-4F49-B168-BAF128551A9C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "8" .
+
+<http://data.cogito.iot.linkeddata.es/resources/process/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28>
+  a <https://cogito.iot.linkeddata.es/def/process#Process>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Process_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28>;
+  <https://cogito.iot.linkeddata.es/def/process#hasTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8> .
+
+<http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>
+  a <https://cogito.iot.linkeddata.es/def/facility#Project>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Project_079637bb-87d5-4fef-9704-d556364d90ba> .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_0>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AD74C853-6199-4FE2-994B-9C5142AD8021";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "0" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "64518854-E3AA-4FF7-B8BC-33DB2326571C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "1" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "2AEF0F45-3DAC-42E0-8B3B-6C9A64808289";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "10" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9991AE72-90B8-4B27-A192-BD48FA426A44";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "104" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "0B6900AE-DE66-420C-ABD2-FEFA862FC227";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "105" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_106>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "C3728CA5-B088-42FB-8860-CEB5BD9329B2";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "106" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_107>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_105>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "CE767D56-8854-481A-A558-3D97C8906BE7";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "107" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "B6D91E09-2271-4C90-BF0A-5245C1F0E486";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "108" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_109>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "8B2EC23F-4C4A-4E35-9855-A4E51D940C08";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "109" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_110>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "302EA137-4122-45ED-A5BB-B254C7DF3153";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "110" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_111>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_108>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "10363876-EDE4-460D-B2CC-2C51CAE1E159";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "111" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AC8CC3E1-078E-4C51-BC45-16EB491F307F";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "112" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_113>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "03E91AD5-CE86-42D1-916A-9B1F5C3FB735";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "113" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_114>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "ADCF6CDB-B73C-4FEF-A828-947226903359";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "114" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_115>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_112>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "26A28CF8-7DE9-4E2E-AC8B-415672A997BF";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "115" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_104>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "A79ECD8B-1175-48C4-9C35-2EEF3E7470C0";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "116" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_117>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_116>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "480ACC2C-BD92-4C0C-B230-901AA90FDFCF";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "117" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_118>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "10762CA1-18B5-45CF-870B-1D7D07B4FE5A";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "118" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_119>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "95AD44A2-E64E-45E7-A6A3-0ED08EAB90C8";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "119" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "7B177D22-3E2D-43D1-8C72-AECBB16B1BB7";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "13" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "6FD03B61-F8D8-49B6-9D75-CF508FB33862";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "14" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "930E6016-055C-445C-81EB-D976A9173B5C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "15" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "2C44CAF0-16F4-410C-B706-393A91FCB37C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "16" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_13>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_14>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "4B0DDFAA-4E9E-4D98-90F9-23FF8BEC7901";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "17" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_10>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_15>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_16>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "049F7A6B-3B39-46E9-8B51-5DD5173CDD63";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "18" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_18>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9A1B7091-2F36-4D2D-A334-769B82811DDA";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "2" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "5BDC7227-D17F-4F1D-B3CB-3F036777D2D0";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "206" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AFF17DAF-93DB-4BCA-8E63-54CE59B47CDC";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "21" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_22>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_17>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9D5F5E2F-5FBC-496A-88C4-17533696CD43";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "22" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_2>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "CF6AC4D9-1D0E-4C59-AD75-B6BB862A82F7";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "3" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_4>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "F1AD89CD-6EE0-48F2-9945-F2C107F8504C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "4" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_21>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "624D2AD5-1AFF-4113-A1A8-821AC8052FB2";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "5" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "1AD6F0EB-0CC6-429E-BD3B-39093FCE1805";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "53" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "F2DD1089-605E-4F9E-9069-EC330E112F1A";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "54" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_55>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "40A8568C-0C67-4F63-A735-658CD6C7FA95";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "55" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_56>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_54>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "AA76F034-3C44-4E76-B230-BEAEC3D19424";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "56" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "22AB8911-105F-41E3-A61B-DF13BFB9EEED";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "57" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_59>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "4DAD3CF8-C28D-4D7D-B6FF-CEBFAD0C01A9";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "59" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_6>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_3>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "D90EB083-CAB7-4953-9F1B-6EEB7D2CBB72";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "6" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_60>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_57>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "8B9D7131-F54A-490D-9855-54AFBF323B8B";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "60" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_53>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "16F38803-BA42-41B5-BF4F-98726D5224EF";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "61" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_63>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "A8BF0BB2-1A1F-4DA6-8F0C-5136C5EE5982";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "63" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_64>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_61>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "DD73C77D-1606-4377-AA74-6039D25E40F1";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "64" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "E4ADD63C-5C72-4008-B75E-915A8B5EF22D";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "65" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_67>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "DB10A3F7-B46B-4C15-9254-84F10F6D3D97";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "67" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_68>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_65>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "703F1C6F-C988-4ACC-8387-6E485E3A4009";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "68" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_7>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "FDC56A31-6BE9-4FA3-8D9D-883390DFA35F";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "7" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#hasSubTask> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_206>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>,
+    <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>;
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_1>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "9CD9C2F1-95D9-49A7-B1BB-ACADFBE6A7E6";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "72" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_74>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "043DD0CE-E309-491D-8DF6-6796BC4E5957";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "74" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_76>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_72>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "6079F6A4-A131-4B6E-8454-6DCF07764872";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "76" .
+
+<http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8>
+  a <https://cogito.iot.linkeddata.es/def/process#Task>;
+  <http://www.w3.org/2002/07/owl#sameAs> <http://data.cogito.iot.linkeddata.es/resources/Task_079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_8>;
+  <https://cogito.iot.linkeddata.es/def/facility#isRelatedToProject> <http://data.cogito.iot.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba>;
+  <https://cogito.iot.linkeddata.es/def/process#hasPriority> 500;
+  <https://cogito.iot.linkeddata.es/def/process#hasStatus> "PT0H0M0S";
+  <https://cogito.iot.linkeddata.es/def/process#isSubTaskOf> <http://data.cogito.iot.linkeddata.es/resources/task/079637bb-87d5-4fef-9704-d556364d90ba_FE090C7C-7AEC-42FE-9452-AD0AA8643D28_5>;
+  <https://cogito.iot.linkeddata.es/def/process#taskId> "6A5B26EF-D364-4F49-B168-BAF128551A9C";
+  <https://cogito.iot.linkeddata.es/def/process#taskUid> "8" .

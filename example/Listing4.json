@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://www.w3.org/2019/wot/td/v1",
+        {
+            "facility": "https://cogito.iot.linkeddata.es/def/facility#"
+        },
+        "https://w3c.github.io/wot-discovery/context/discovery-context.jsonld"
+    ],
+    "security": [
+        "nosec_sc"
+    ],
+    "title": "test1",
+    "types": "https://cogito.iot.linkeddata.es/def/facility#Project",
+    "registration": {
+        "created": "2022-10-05T11:46:50.411Z",
+        "modified": "2022-10-05T11:47:10.587Z"
+    },
+    "id": "079637bb-87d5-4fef-9704-d556364d90ba",
+    "securityDefinitions": {
+        "nosec_sc": {
+            "scheme": "nosec"
+        }
+    },
+    "description": "Digital Twin process 079637bb-87d5-4fef-9704-d556364d90ba",
+    "properties": {
+        "hasKnowledgeGraph": {
+            "forms": [
+                {
+                    "href": "https://data.cogito.linkeddata.es/resources/079637bb-87d5-4fef-9704-d556364d90ba",
+                    "type": "text/turtle"
+                }
+            ]
+        },
+        "hasValueInGraph": {
+            "forms": [
+                {
+                    "href": "https://data.cogito.linkeddata.es/resources/project/079637bb-87d5-4fef-9704-d556364d90ba",
+                    "type": "text/turtle"
+                }
+            ]
+        }
+    },
+    "links": [
+        {
+            "href": "http://data.cogito.iot.linkeddata.es/api/things/9dbfc5ac71a0aeaa49d56b654cdb62e44b743b4abd5b6179f4979bebc1940afb",
+            "rel": "facility:hasSchedule",
+            "type": "application/td+json"
+        }
+    ]
+}
