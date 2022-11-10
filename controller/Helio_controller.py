@@ -1,13 +1,18 @@
 import requests
+import json
 from WrapperConfiguration import WrapperConfiguration
+from service.Error_service import Error_service
 
 class Helio_Controller:
-    def __init__(self):
+    def __init__(self, project_id, file_id=None):
         self.helio_endpoint = None
         self.task = None
         self.mappings_path = None
         self.mappings = None
         self.ttl = None
+        self.thing_manager_endpoint = None
+        self.project_id = project_id
+        self.file_id = file_id
 
     
     def set_helio_config(self):
@@ -16,6 +21,7 @@ class Helio_Controller:
         self.helio_endpoint = wrapper_config.helio_endpoint
         self.mappings_path = wrapper_config.helio_mappings_path
         self.task = wrapper_config.helio_task
+        self.thing_manager_endpoint = wrapper_config.thing_manager
     
     def create_task(self):
         
@@ -30,16 +36,13 @@ class Helio_Controller:
             print("Helio Task Created")
         except:
             print("Error creating task")
-            self.handle_error()
-            pass
+            error_service = Error_service("Error creating task", self.thing_manager_endpoint, self.project_id, self.file_id)
+            error_service.handle_error()
 
     def read_mappings(self):
         with open(self.mappings_path, 'r') as f:
             self.mappings = f.read()
         f.close()
-
-    def handle_error(self):
-        pass
 
     def retrieve_file(self):
 
@@ -55,6 +58,6 @@ class Helio_Controller:
             print("Helio Graph File Retrieved")
             self.ttl = response.text
         except:
-            print("Error retrieving file")
-            self.handle_error()
-            pass
+            print("Error retrieving file from helio")
+            error_service = Error_service("Error retrieving file from helio", self.thing_manager_endpoint, self.project_id, self.file_id)
+            error_service.handle_error()

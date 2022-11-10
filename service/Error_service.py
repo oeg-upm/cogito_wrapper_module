@@ -1,19 +1,25 @@
-from model.Errors import Errors
+import json
 import requests
 
 class Error_service:
-    def __init__(self, error_number, error_description, project_id):
-        self.__error_number = error_number
-        self.__error_description = error_description
-        self.__project_id = project_id
+    def __init__(self, error, thing_manager_endpoint, project_id, file_id=None):
+        self.error = error
+        self.project_id = project_id
+        self.thing_manager_endpoint = thing_manager_endpoint
+        self.file_id = file_id
 
-    def create_error(self):
-        error = Errors(self.__error_number, self.__error_description)
-        return error.to_json()
-
-    def send_error(self, error_number, error_description):
-        error = self.create_error()
-        url = "http://localhost:8080/" + "project/" + self.__project_id + "/wrapper_error"
-        payload = error
-        headers = {'Content-Type': 'application/json'}
-        response = requests.request("POST", url, headers=headers, data=payload)
+    def handle_error(self):
+        url = self.thing_manager_endpoint + "/wrapper_error"
+        error_dict = {
+            "project_id": self.project_id,
+            "file_id": self.file_id,
+            "error": self.error
+        }
+        headers = {
+            'Content-Type': 'application/json'
+        }
+        payload = json.dumps(error_dict)
+        try:
+            response = requests.request("POST", url, headers=headers, data=payload)
+        except:
+            print("Error sending error to the Thing Manager")

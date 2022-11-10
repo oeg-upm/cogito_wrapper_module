@@ -2,6 +2,7 @@ from service.Project_Service import Project_Service
 from controller.Helio_Controller import Helio_Controller
 from controller.Coppola_Controller import Coppola_Controller
 import requests
+import json
 from service.Error_service import Errors
 from WrapperConfiguration import WrapperConfiguration
 
@@ -27,7 +28,7 @@ class Project_Controller:
         self.project_service.create_file()
         
     def translation(self):
-        helio_controller = Helio_Controller()
+        helio_controller = Helio_Controller(self.project_service.project_model.get_project_id())
         helio_controller.set_helio_config()
         self.mappings_path = helio_controller.mappings_path
         helio_controller.read_mappings()
@@ -36,7 +37,7 @@ class Project_Controller:
         self.ttl = helio_controller.ttl
 
     def validation(self):
-        validation_controller = Coppola_Controller(self.ttl)
+        validation_controller = Coppola_Controller(self.ttl, self.project_service.project_model.get_project_id())
         validation_controller.set_coppola_config()
         validation_controller.validate()
         if validation_controller.response_list != None:

@@ -1,16 +1,17 @@
 from model.File import File
+from service.Error_service import Error_service
 import os
 import json
 import hashlib
 from urllib import request
-from service.Error_service import Errors
 
 class File_Service:
 
-    def __init__(self, json_data, path, ttl_path):
+    def __init__(self, json_data, path, ttl_path, thing_manager_endpoint):
         self.json_data = json.loads(json_data)
         self.path = path
         self.ttl_path = ttl_path
+        self.thing_manager_endpoint = thing_manager_endpoint
         self.file_model = File()
 
     def create_model(self):
@@ -29,10 +30,10 @@ class File_Service:
             print("Downloading file", self.json_data["file_url"])
             request.urlretrieve(self.json_data["file_url"], local_filename)
             print("File Downloaded")
-        except Exception as e:
-            print(e.code)
-            error = Errors(e.code, "Error during file download in wrapper execution.")
-            error.send_error()
+        except:
+            print("Error downloading file")
+            error_service = Error_service("Error downloading file", self.thing_manager_endpoint, self.file_model.get_project_id(), self.file_model.get_file_id())
+            error_service.handle_error()
 
     def remove_file(self):
         if os.path.exists(self.path + "/file." + self.__retrieve_file_extension()):
@@ -43,4 +44,3 @@ class File_Service:
     def __retrieve_file_extension(self):
         file_extension = self.json_data["file_url"].split(".")[-1]
         return file_extension
-

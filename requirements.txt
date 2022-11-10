@@ -2,5 +2,5 @@ requests==2.27.1
 stellar-base-sseclient==0.0.21
 #lxml==4.8.0
 wheezy.template==3.1.0
-rdflib==6.1.1
+rdflib==6.2.0
 pyshacl==0.19.0
