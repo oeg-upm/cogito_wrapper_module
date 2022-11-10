@@ -3,7 +3,7 @@ from controller.Helio_Controller import Helio_Controller
 from controller.Coppola_Controller import Coppola_Controller
 import requests
 import json
-from service.Error_service import Errors
+from service.Error_service import Error_service
 from WrapperConfiguration import WrapperConfiguration
 
 class Project_Controller:
@@ -58,9 +58,6 @@ class Project_Controller:
             print("Sended request to," + url)
         except:
             print("Error sending ttl to thing manager")
-            error = Errors(1, "Error sending turtle file to thing manager.")
-            error.send_error()
-            pass
 
         self.remove_project_model()
 

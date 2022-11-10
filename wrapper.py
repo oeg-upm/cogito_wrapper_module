@@ -4,7 +4,7 @@ from sseclient import SSEClient
 from configparser import ConfigParser
 from WrapperConfiguration import WrapperConfiguration
 from controller.Wrapper_Controller import WrapperController
-from service.Error_service import Errors
+from service.Error_service import Error_service
 from signal import signal, SIGINT
 import sys
 sys.stdout.flush()
