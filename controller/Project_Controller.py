@@ -43,8 +43,7 @@ class Project_Controller:
         if validation_controller.response_list != None:
             pass
         else:
-            error = Errors(1, "Error in validation.")
-            error.send_error()
+            print("Error validating ttl")
 
     def send_ttl(self):
         # send ttl to thing manager

@@ -23,8 +23,8 @@ class Coppola_Controller:
     def set_coppola_config(self):
         wrapper_config = WrapperConfiguration()
         wrapper_config.get_configuration()
-        self.thing_manager_endpoint = wrapper_config.thing_manager_endpoint
-        self.coppola_endpoint = wrapper_config.thing_manager
+        self.thing_manager_endpoint = wrapper_config.thing_manager
+        self.coppola_endpoint = wrapper_config.coppola_endpoint
         self.url_list = [self.coppola_endpoint + '/api/process?format=turtle',
                          self.coppola_endpoint + '/api/facility?format=turtle',
                          self.coppola_endpoint + '/api/resource?format=turtle',
